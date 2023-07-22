@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <title>July Contest-2</title>
+</head>
+
+<body>
+    <main>
+        <h2>Multiple Timers App</h2>
+        <div class="set-time-box">
+            <span>Set Time :</span>
+            <div class="inputs">
+                <input type="number" class="hrs" placeholder="hh" />
+                <span>:</span>
+                <input type="number" class="mins" placeholder="mm" />
+                <span>:</span>
+                <input type="number" class="secs" placeholder="ss" />
+            </div>
+            <button id="set-btn">Set</button>
+        </div>
+        <div class="curr-timers">Current Timers</div>
+        <section id="active-container">You have no timers currently!</section>
+    </main>
+    <script src="./script.js"></script>
+</body>
+
+</html>

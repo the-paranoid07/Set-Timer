@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: "Roboto", sans-serif;
+  }
+  main {
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #1d1d23;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+  .set-time-box {
+    width: 50%;
+    height: 100px;
+    background-color: #34344a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12%;
+    border-radius: 16px;
+  }
+  h2 {
+    margin-top: 30px;
+  }
+  input::-webkit-inner-spin-button,
+  input::-webkit-outer-spin-button {
+    appearance: none;
+  }
+  .inputs {
+    display: flex;
+    width: 40%;
+    gap: 10px;
+  }
+  input {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    font-size: 2em;
+    width: 100%;
+    text-align: center;
+  }
+  .inputs span {
+    font-size: 2em;
+  }
+  input:focus {
+    outline: none;
+  }
+  button {
+    background: #f0f757;
+    color: black;
+    border: none;
+    border-radius: 15px;
+    width: 10%;
+    padding: 8px 0;
+    cursor: pointer;
+  }
+  #delete-btn {
+    background-color: red;
+    color: white;
+  }
+  .curr-timers {
+    background: #39393e;
+    padding: 10px 50px;
+    border-radius: 22px;
+  }
+  #active-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .timesUpBox {
+    background-color: #f0f757;
+  }
+  #stop-btn {
+    background: #34344a;
+    color: white;
+  }
+  .timesUpText {
+    color: #34344a;
+    font-size: 2em;
+    font-weight: 700;
+  }
